@@ -1,0 +1,14 @@
+
+myenv
+*.csv
+*.zip
+*.tar.gz
+*.h5
+*.mp4
+*.png
+*.log
+__pycache__/
+node_modules/
+*.ipynb
+tests/
+docs/
