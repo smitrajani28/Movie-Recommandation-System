@@ -1,5 +1,4 @@
-
-myenv
+myenv/
 *.csv
 *.zip
 *.tar.gz
