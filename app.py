@@ -35,7 +35,7 @@ if api_key is None:
 
 selected_movie = st.selectbox('Choose a movie',movies_list)
 
-if st.button("Recommand"):
+if st.button("Recommend"):
     names,posters = recommand(selected_movie)
     cols = st.columns(len(names))
     for i in range(len(names)):
