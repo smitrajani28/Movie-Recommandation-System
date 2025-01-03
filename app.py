@@ -26,7 +26,7 @@ movies = pickle.load(open("movies.pkl","rb"))
 movies_list = movies["title"].values
 st.title('Movie Recommander System')
 
-load_dotenv("D:/codes/API_Keys/.env")
+# load_dotenv("D:/codes/API_Keys/.env")
 api_key = os.getenv("THEMOVIEDB")
 if api_key is None:
     api_key = st.text_input("Enter your API_key:", type="password")
