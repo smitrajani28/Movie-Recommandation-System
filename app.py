@@ -40,5 +40,6 @@ if st.button("Recommand"):
     cols = st.columns(len(names))
     for i in range(len(names)):
         with cols[i]:
-            st.text_area(names[i],height=2)
+            txt = st.text_area(names[i],height=2)
+            st.write(txt)
             st.image(posters[i])
